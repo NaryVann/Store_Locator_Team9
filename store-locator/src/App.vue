@@ -9,7 +9,7 @@
 <script>
 
 import NavBar from './components/NavBar'
-import StoreDetail from './components/StoreDetail'
+// import StoreDetail from './components/StoreDetail'
 import Home from './components/Home.vue'
 
 export default {
@@ -17,7 +17,7 @@ export default {
   components: {
     NavBar,
     Home,
-    StoreDetail
+    // StoreDetail
   }
 }
 </script>
