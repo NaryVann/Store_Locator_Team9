@@ -111,4 +111,13 @@ app.get("/fitness/search/:store_name", async function (req, res) {
   }
 });
 
+// app.get("/detail/:id", async function(req, res) {
+//   const detail = await clothingModel.find({_id: req.params.id})
+//   try {
+//     res.send(detail);
+//   } catch (err) {
+//     res.status(500).send(err);
+//   }
+// })
+
 module.exports = app;
